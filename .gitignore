@@ -4,7 +4,6 @@ db.sqlite3
 *.pot
 *.pyc
 __pycache__
-db.sqlite3
 media
 images
 
@@ -16,7 +15,7 @@ pip-log.txt
 pip-delete-this-directory.txt 
 
 # enviroment files #
-.env 
+django_test/.env
 .venv 
 env/ 
 venv/ 
@@ -76,9 +75,10 @@ Control.system-ca-bundle
 GitHub.sublime-settings 
 
 # Visual Studio Code # 
-.vscode/* 
+.vscode
 !.vscode/settings.json 
 !.vscode/tasks.json 
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+workspace.code-workspace
